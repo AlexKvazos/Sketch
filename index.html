@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sketch</title>
+	<meta name='viewport' content="width=device-width,user-scalable=no" />
+</head>
+<body>
+	<style>
+		html, body { margin: 0; }
+		button {
+			background-color: black;
+			color: white;
+			border: none;
+			border-radius: 4px;
+			padding: 10px 30px;
+			position: fixed;
+			top: 10px;
+			left: 10px;
+		}
+		img {
+			position: fixed;
+			top: 10px;
+			right:10px;
+			width: 100px;
+		}
+	</style>
+	<button>Borrar</button>
+	<canvas id="draw"></canvas>
+	<script src='/socket.io/socket.io.js' type='text/javascript'></script>
+	<script src='/assets/sketch.js' type='text/javascript' ></script>
+</body>
+</html>
